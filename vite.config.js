@@ -3,5 +3,6 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:"/2022-Stopwatch/",
   plugins: [svelte()]
 })
